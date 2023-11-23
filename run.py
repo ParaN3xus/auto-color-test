@@ -10,7 +10,6 @@ driver.find_element(By.XPATH, '//*[@id="index"]/div[2]/button').click()
 
 pattern = re.compile(r"rgb\([0-9]*,\s[0-9]*,\s[0-9]*\)")
 
-
 while True:
     src = driver.page_source
     colorsstr = ""
